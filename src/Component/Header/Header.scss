@@ -1,0 +1,350 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    .css-1sh9f28-MuiAvatar-root {
+        border-radius: 2px;
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        background-color: transparent;
+    }
+
+    .css-137ul40-MuiButtonBase-root-MuiIconButton-root:hover {
+        background-color: transparent;
+    }
+
+    .css-137ul40-MuiButtonBase-root-MuiIconButton-root {
+        background: #fff url(../../images/arrow-head.svg);
+        background-color: #fff;
+        border-radius: 0;
+        padding: 8px;
+        border-radius: 0;
+        overflow: visible;
+        color: rgba(0, 0, 0, 0.54);
+        padding: 0 15px 0 0;
+        font-size: 1.125rem;
+        margin-left: 16px;
+        border: 1px solid #EEEEF2;
+        border-radius: 8px;
+        overflow: visible;
+        background-repeat: no-repeat;
+        background-position: right;
+        padding-right: 28px;
+
+        .userImg {
+            min-width: 50px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+        }
+
+        .css-1lojo64-MuiTypography-root {
+            font-weight: 700;
+            color: #000;
+        }
+
+    }
+
+    .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+        border: 1px solid #EEEEF2;
+        border-radius: 8px;
+    }
+
+    .btnoutline {
+        background-color: #fff;
+        border: 1px solid #EEEEF2;
+        border-radius: 8px;
+    }
+
+
+    .notifyBtn {
+        min-width: inherit;
+        position: relative;
+        padding: 10px;
+
+        .material-icons {
+            font-size: 20px;
+        }
+    }
+
+    .notificationBadge {
+        background-color: #12b2b3;
+        position: absolute;
+        top: -10px;
+        border-radius: 40px;
+        min-width: 32px;
+        display: inline-block;
+        color: #fff;
+        right: -12px;
+    }
+
+    .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+        padding: 10px 5px;
+        color: #302F59;
+        font-style: normal;
+    }
+
+    .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+        border-radius: 8px;
+        border-color: #EEEEF2;
+    }
+
+    .pageTitle {
+        h2 {
+            margin-top: 0;
+            line-height: 52px;
+            font-size: 24px;
+
+            .ProjectLogo {
+                min-width: 52px;
+                float: left;
+            }
+        }
+    }
+}
+
+.dataTableFilter {
+    margin: 15px 0;
+    background-color: #ffffff;
+    padding: 15px;
+    box-shadow: 1px 1px 2px 0px rgb(0 0 0 / 20%);
+
+
+    .css-pl8gqh-MuiStack-root {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    div#demo-simple-select-helper {
+        min-width: 106px;
+
+    }
+
+    .MuiFormControl-root.MuiTextField-root.css-z3c6am-MuiFormControl-root-MuiTextField-root {
+        width: 143px;
+        margin-bottom: 10px;
+    }
+
+    .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+        color: #000;
+        font-size: 12px;
+        border-radius: 15px;
+        font-weight: 500;
+    }
+
+    .css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+        color: #000;
+        font-size: 13px;
+        border-radius: 15px;
+    }
+
+    .css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+        background-color: rgba(0, 0, 0, 0.0);
+        border: 1px solid #ccc;
+        color: #000;
+        border-radius: 15px;
+    }
+
+    .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+        font-size: 13px;
+        color: #ccc;
+    }
+
+    .css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+        border: 1px solid #12B2B3;
+        color: #12B2B3;
+    }
+
+    .css-1rwt2y5-MuiButtonBase-root-MuiButton-root:hover,
+    .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root:hover,
+    .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root:hover {
+        border: 1px solid #a8a8a8;
+        color: #3e3e3e;
+    }
+
+    .fontSize12 {
+        font-size: 13px;
+        border-radius: 15px;
+        text-transform: capitalize;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    .MuiTextField-root {
+        max-width: 143px;
+    }
+
+    .css-sghohy-MuiButtonBase-root-MuiButton-root {
+        background-color: #12b2b3;
+
+    }
+
+    .css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+        color: #bcbcbc;
+        background-color: #fff;
+    }
+
+    svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+        transform: rotate(180deg);
+        background-image: url(../../images/calendar_month.svg);
+
+        path {
+            display: none;
+        }
+    }
+
+}
+
+.header .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+    position: relative;
+}
+
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root:after {
+    background-image: url(../../images/arrow-head.svg);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+    background-image: url(../../images/arrow-head.svg);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-size: 20px;
+
+    path {
+        display: none;
+    }
+}
+
+.MuiSelect-iconOpen .css-hfutr2-MuiSvgIcon-root-MuiSelect-icon,
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiSelect-icon.MuiSelect-iconOutlined.MuiSelect-iconOpen.css-bpeome-MuiSvgIcon-root-MuiSelect-icon {
+    transform: rotate(180deg);
+    background-image: url(../../images/arrow-head.svg);
+
+    path {
+        display: none;
+    }
+}
+
+.header {
+    @media(max-width: 991px) {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column-reverse;
+    }
+}
+
+.headeright {
+    @media(max-width: 991px) {
+        .css-5nwj3y {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: end;
+        }
+    }
+
+    .MuiFormControl-root.css-1869usk-MuiFormControl-root {
+        @media(max-width: 550px) {
+            display: none;
+        }
+        
+    }
+    .MuiBox-root.css-5nwj3y{
+        @media(max-width: 550px) {
+            display: none;
+        }
+    }
+    .mlogoBox {
+        display: none;
+
+        @media(max-width: 550px) {
+            display: flex;
+            margin-bottom: 10px;
+            flex-flow: row;
+            justify-content: space-between;
+            .notifyBtn {
+                padding: 5px;
+            }
+            .mleft {
+                display: flex;
+                padding-left: 40px;
+            }
+            button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeSmall.css-137ul40-MuiButtonBase-root-MuiIconButton-root {
+                max-width: 43px;
+                display: inline-block;
+            }
+        }
+    }
+}
+
+.dataTableFilter {
+    @media(max-width: 550px) {
+        transition: all ease 2s;
+        margin: 15px 0;
+        background-color: #009688;
+        padding: 10px;
+        box-shadow: none;
+        border: 1px solid #009688;
+        width: 90px;
+        height: 0px;
+        top: 0;
+        right: -2px;
+        z-index: 9;
+        overflow: hidden;
+        padding-top: 38px;
+        position: absolute;
+        top: 10%;
+        border-radius: 4px;
+
+        &::before {
+            content: "Datafilter";
+            /* background-color: #009688; */
+            color: #f9f9f9;
+            padding: 14px;
+            line-height: 4px;
+            border-radius: 4px !important;
+            margin-top: 10px;
+            position: relative;
+            top: -42px;
+            overflow: hidden;
+            width: 100%;
+            min-width: initial;
+            display: inline-block;
+            font-size: 16px;
+            text-align: left;
+            letter-spacing: 1px;
+            left: -10px;
+        }
+
+        &:hover, &:focus {
+            height: 550px;
+            top: 0;
+            width: 200px;
+            transition: all ease 2s;
+            background-color: #fff;
+            padding-top: 0;
+
+            &::before {
+                content: '';
+            }
+        }
+
+        .css-1869usk-MuiFormControl-root {
+            max-width: 100%;
+            width: 100%;
+        }
+
+        .fontSize12,
+        .MuiFormControl-root.MuiTextField-root.css-z3c6am-MuiFormControl-root-MuiTextField-root {
+            max-width: 100%;
+            width: 100%;
+            margin: 10px 0px;
+            min-height: 46px
+        }
+    }
+}

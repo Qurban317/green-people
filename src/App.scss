@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+$bodyfont: "Manrope", sans-serif;
+;
+$prmeryColor: #12B2B3;
+$sideBarBg: #ECF9F9;
+$sideBarColor: #12112C;
+$tabletdColor: #302F59;
+$activeColor: #12B2B3;
+$inputColor: #8B8BA2;
+$tabletdBg: #FAFAFD;
+
+body {
+    background-color: #fafafd;
+    font-family: $bodyfont;
+    overflow-x: hidden;
+
+}
+
+.css-1sh9f28-MuiAvatar-root,
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select,
+em,
+.css-1lojo64-MuiTypography-root {
+    font-family: $bodyfont;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.Sidebar .comBtn .css-i4bv87-MuiSvgIcon-root {
+    color: $activeColor;
+}
+
+.wraper {
+    width: 100%;
+}
+
+.MainContent {
+    width: calc(100% - 340px);
+    padding: 10px;
+    background-color: #fafafd;
+    display: flex;
+    flex-flow: column;
+    float: right;
+
+    @media(max-width: 1024px) {
+        width: calc(100% - 220px);
+    }
+
+    @media(max-width: 550px) {
+        width: 94%;
+        padding: 20px;
+    }
+}
+
+.BadgeGreen {
+    background-color: #169A3C;
+    padding: 2px 6px 4px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.BadgeRed {
+    background-color: #DB3840;
+    padding: 2px 6px 4px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.BadgeBlue {
+    background-color: #84A6FF;
+    padding: 2px 6px 4px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.BtnStanderd {
+    border: 1px solid #EEEEF2 !important;
+    color: #302F59 !important;
+    background-color: #eeeef200 !important;
+    border-radius: 8px;
+    text-transform: capitalize !important;
+    padding: 4px 10px 4px 4px !important;
+    font-family: $bodyfont !important;
+}
+
+.css-ahj2mt-MuiTypography-root {
+    font-family: $bodyfont !important;
+    font-weight: 700 !important;
+    font-size: 1.05rem !important;
+    line-height: 2.5 !important;
+}
+
+.Mui-expanded .css-ahj2mt-MuiTypography-root,
+.Mui-expanded .css-i4bv87-MuiSvgIcon-root,
+.colorText {
+    color: $activeColor;
+}
+
+.rdt_TableRow:nth-child(odd) {
+    background-color: $tabletdBg;
+}
+
+.sc-hLQSwg {
+    color: $sideBarColor;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sc-eTNRI {
+    font-weight: 700;
+    color: $inputColor;
+    font-size: 14px;
+}

@@ -1,0 +1,222 @@
+.Sidebar {
+    width: 300px;
+    position: absolute;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    background-color: #ecf9f9;
+    min-height: 500px;
+    padding: 30px 10px 10px 10px;
+
+    @media(max-width: 1024px) {
+        width: 180px;
+    }
+
+    @media(max-width: 550px) {
+        width: 0;
+
+        .m_nav {
+            transition: all ease 1s;
+            opacity: 0;
+        }
+
+    }
+
+    #mmenu {
+        display: none;
+
+        @media(max-width: 550px) {
+            display: block;
+        }
+    }
+
+    #Dmenu {
+        display: block;
+
+        @media(max-width: 550px) {
+            display: none;
+        }
+    }
+
+    .AppLogo {
+        width: 80%;
+    }
+
+    .logoBox {
+        display: flex;
+
+        a {
+            padding: 0;
+        }
+
+        .MuiButton-text {
+            min-width: 32px;
+            color: #000;
+        }
+    }
+
+    a {
+        width: 100%;
+        display: block;
+        padding-left: 30px;
+        position: relative;
+        color: #000;
+    }
+
+    .comBtn {
+        background-color: #fff !important;
+        padding: 10px !important;
+        margin: 30px 0 10px !important;
+
+        .css-i4bv87-MuiSvgIcon-root {
+            transform: rotate(270deg);
+        }
+
+        .SidebarIcon {
+            background-size: 140px !important;
+            background-position: 2px 6px !important;
+            padding-left: 38px;
+        }
+
+        .MuiAccordionSummary-expandIconWrapper.css-yw020d-MuiAccordionSummary-expandIconWrapper {
+            position: relative;
+            right: -10px;
+        }
+
+
+    }
+
+    .SidebarIcon {
+        background-size: 36px;
+        background-repeat: no-repeat;
+        background-position: 5px 13px;
+
+        &.DashboardIcon01 {
+            background-image: url(../../images/techlogo.svg);
+        }
+
+        &.DashboardIcon02 {
+            background-image: url(../../images/dashboard.svg);
+        }
+
+        &.DashboardIcon03 {
+            background-image: url(../../images/receipt_long.svg);
+        }
+
+        &.DashboardIcon04 {
+            background-image: url(../../images/shield_person.svg);
+        }
+
+        &.DashboardIcon05 {
+            background-image: url(../../images/shopping_bag.svg);
+        }
+
+        &.DashboardIcon06 {
+            background-image: url(../../images/construction.svg);
+        }
+
+        &.DashboardIcon07 {
+            background-image: url(../../images/waving_hand.svg);
+        }
+
+    }
+
+    .Mui-expanded {
+        .SidebarIcon {
+            background-size: 36px;
+            background-repeat: no-repeat;
+            background-position: 5px 13px;
+
+            &.DashboardIcon02 {
+                background-image: url(../../images/dashboard_active.svg);
+            }
+
+            &.DashboardIcon03 {
+                background-image: url(../../images/receipt_long_active.svg);
+            }
+
+            &.DashboardIcon04 {
+                background-image: url(../../images/shield_person_active.svg);
+            }
+
+            &.DashboardIcon05 {
+                background-image: url(../../images/shopping_bag_active.svg);
+            }
+
+            &.DashboardIcon06 {
+                background-image: url(../../images/construction_active.svg);
+            }
+
+            &.DashboardIcon07 {
+                background-image: url(../../images/waving_hand_active.svg);
+            }
+
+        }
+    }
+
+    .css-1c35hjw-MuiPaper-root-MuiAccordion-root.Mui-expanded {
+        margin: 0px 0;
+    }
+
+    .css-o4b71y-MuiAccordionSummary-content.Mui-expanded {
+        margin: 12px 0;
+    }
+
+    .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+        min-height: 48px;
+    }
+
+    .css-1c35hjw-MuiPaper-root-MuiAccordion-root {
+        background-color: transparent;
+        border-bottom: 1px solid #fff;
+        border-radius: 0;
+        box-shadow: none;
+        outline: none;
+    }
+
+    .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
+        padding-left: 46px;
+    }
+
+    .navBtn {
+        border-radius: 4px;
+        padding: 10px 0px 10px 15px;
+        text-decoration: none;
+    }
+
+    .btnPrimery {
+        background-color: #12b2b3;
+        color: #fff;
+    }
+
+    .css-1c35hjw-MuiPaper-root-MuiAccordion-root::before {
+        background-color: transparent;
+    }
+
+}
+
+.msidebar {
+    @media(max-width: 550px) {
+        background-color: #fff !important;
+        left: -8px;
+        top: -8px;
+    }
+
+}
+
+.Sidebar.msidebar.active {
+    @media(max-width: 550px) {
+        width: 240px;
+        z-index: 9;
+        left: 0;
+        top: -8px;
+        background-color: #ecf9f9 !important;
+         .m_nav {
+            transition: all ease 2s;
+            opacity: 1;
+            .css-o4b71y-MuiAccordionSummary-content {
+                margin: 5px 0;
+            }
+        }
+    }
+}
